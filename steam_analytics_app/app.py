@@ -22,6 +22,9 @@ from pydantic import BaseModel, Field
 from external_applied_model_predict import build_model_input, run_prediction
 from steam_sales_pipeline import price_category
 
+from external_applied_model_predict import build_model_input, run_prediction
+from steam_sales_pipeline import price_category
+
 
 st.set_page_config(
     page_title="Steam Games Analytics",
